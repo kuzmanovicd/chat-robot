@@ -113,7 +113,7 @@ Kao i u svakom chatu, postojalo je mnogo grešaka i mnogo istih reči koji su ra
 
 Trenutno, chat robot ne vodi evidenciju o prethodnim porukama i ne može da vodi konverzaciju. Nastavak ovog projekta bi bio unapređenje chat robota da vodi konverzaciju kroz više poruka.
 
-Reference
+## Reference
 
 [http://deeplearning.cs.cmu.edu/pdfs/Hochreiter97\_lstm.pdf](http://deeplearning.cs.cmu.edu/pdfs/Hochreiter97_lstm.pdf)
 
