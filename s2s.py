@@ -68,6 +68,7 @@ class S2S(object):
                 y_vocab_size
             )
 
+            #optimizer
             self.train_op = tf.train.AdamOptimizer(learning_rate=lr).minimize(self.loss)
 
         sys.stdout.write('Building graph...\n')
@@ -126,7 +127,7 @@ class S2S(object):
 
                 save_every = 1000
 
-                if i and i%500 == 0:
+                if i and i%save_every == 0:
                     saver.save(sess, self.ckpt_path + self.model_name + '.ckpt', global_step=i)
                     val_loss = self.eval_batches(sess, valid_set, 16)
 
