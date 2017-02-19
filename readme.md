@@ -22,13 +22,10 @@ Komanda:
 _&gt;&gt;&gt; fbcap messages.htm -t &quot;Ime Korisnika&quot; &gt; konverzacija.txt_
 
 Je odradila mukotrpan posao u par sekundi i generisala tekst fajl koji je jako lepo struktuiran. Za potrebu ovog projekta generisana su dva dataseta iz dve različite konverzacije koje su se odvojeno obučavale. Naravno, bilo je potrebno odraditi dodatno formatiranje (uklanjanje nepotrebnih razmaka, praznih linija, timestamp poruka itd). Finalni format poruka izgleda ovako:
-
 _…_
-
 _Ime\_Korisnika1: Dodji na pivo_
 
 _Ime\_Korisnika2: Eto me_
-
 _…_
 
 Druga faza parsiranja je odrađena u Pythonu. Za detaljnije objašnjenje pogledati parse.py u git repozitorijumu. Ova faza obuhvata:
@@ -80,19 +77,12 @@ Obučavanje je testirano i na GRU (Gated Recurrent Unit) ćelijama koje su raču
 Nakon 8000 iteracija na datasetu od 1142KB rezultati su bolji nego očekivani pri korišćenju LSTM ćelija.
 
 q: [sta radis]; a: [nistaa smor brate]
-
 q: [cao]; a: [e cao :d]
-
 q: [kravo jedna]; a: [volim i ja tebe :p ajmo na pivo :d]
-
 q: [kad ces u ns ?]; a: [dok ne ustanem ne znam mozda pila 12]
-
 q: [sta delas]; a: [ma smaram se skoro sam zaspala ali se ne odjavljujem :d sta ti?]
-
 q: [&lt;3]; a: [e bosno moja  &lt;3]
-
 q: [dobio sam 10]; a: [znala sam :d sta ti ti ? :d]
-
 q: [hocu jagodu]; a: [ok . :d]
 
 (Odabrani zanimljivi odgovori)
