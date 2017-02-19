@@ -1,3 +1,5 @@
+[poster]
+
 # Chat Robot
 
 ## Opis Problema
@@ -84,6 +86,7 @@ q: [sta delas]; a: [ma smaram se skoro sam zaspala ali se ne odjavljujem :d sta 
 q: [&lt;3]; a: [e bosno moja  &lt;3]
 q: [dobio sam 10]; a: [znala sam :d sta ti ti ? :d]
 q: [hocu jagodu]; a: [ok . :d]
+q: [jesi luda !]; a: [pa meni se iznerviram kad se setim koliko sam glupa nesto , a ne mogu ucitu xd *uciti]
 
 (Odabrani zanimljivi odgovori)
 
@@ -118,3 +121,5 @@ Trenutno, chat robot ne vodi evidenciju o prethodnim porukama i ne može da vodi
 [http://karpathy.github.io/2015/05/21/rnn-effectiveness/](http://karpathy.github.io/2015/05/21/rnn-effectiveness/)
 
 [https://arxiv.org/abs/1409.3215](https://arxiv.org/abs/1409.3215)
+
+[poster]: https://github.com/kuzmanovicd/chat-robot/blob/master/images/poster_low_quality.jpg
