@@ -1,4 +1,4 @@
-[poster]
+![poster]
 
 # Chat Robot
 
